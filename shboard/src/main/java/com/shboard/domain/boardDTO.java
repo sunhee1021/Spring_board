@@ -1,6 +1,17 @@
 package com.shboard.domain;
 
-//테이블설계부터
-public class boardDTO {
+import java.sql.Date;
 
+import lombok.Data;
+
+//테이블설계부터
+@Data
+public class boardDTO {
+	
+	private int boardNum;
+	private String title;
+	private String content;
+	private String writer;
+	private Date regDate;
+	private int viewCount;
 }
