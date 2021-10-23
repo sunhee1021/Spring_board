@@ -6,7 +6,7 @@ import lombok.Data;
 
 //테이블설계부터
 @Data
-public class boardDTO {
+public class boardVO {
 	
 	private int boardNum;
 	private String title;
