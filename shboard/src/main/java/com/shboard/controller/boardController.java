@@ -25,7 +25,7 @@ public class boardController {
 		
 		@Autowired
 		private BCryptPasswordEncoder bCryptPasswordEncoder;
-		//다시시작
+		//암호화
 		/*
 		// 개인회원 리스트
 		@RequestMapping(value = "/user.do", method = RequestMethod.GET)
